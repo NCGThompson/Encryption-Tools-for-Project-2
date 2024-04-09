@@ -1,6 +1,6 @@
 # Encryption Utility
 
-Interactive Python scripts to help you verify your CSCI 485 Project 2 decryption code
+Interactive Python scripts to help you verify your CSCI 485 Project 3 decryption code
 
 We were told that the target file will be encrypted with the equivalent of the algorithm found at https://encode-decode.com/aes192-encrypt-online/. After some testing, I determined that it uses the [CBC block mode](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Cipher_block_chaining_(CBC)) with an initialization vector of all zeroes. The plaintext message is padded to be a multiple of 24 bytes (128 bits) following the [PKCS#7 standard](https://youtu.be/iZe_q3qW1cE).
 
