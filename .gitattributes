@@ -1,0 +1,7 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+ciphertext-files/* .binary
+key-files/* .binary
+plaintext-files/* -text
+# -text tells git to not modify the files, without treating it as a binary for merge and diff purposes.

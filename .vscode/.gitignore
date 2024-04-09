@@ -1,0 +1,9 @@
+# These should all be in your global .gitignore
+
+*
+!/settings.json
+!/tasks.json
+!/launch.json
+!/extensions.json
+!/*.code-snippets
+!/.gitignore
